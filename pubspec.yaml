@@ -1,8 +1,8 @@
 name: flutter_qiyu
 description: Neteast Qiyu customer service for flutter
 version: 0.0.1
-author:
-homepage:
+author: kevinho0706@gmail.com
+homepage: https://github.com/HoZanHoi/flutter_qiyu
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
