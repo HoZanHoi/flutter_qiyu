@@ -8,13 +8,14 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Neteast Qiyu customer service for flutter
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/HoZanHoi/flutter_qiyu'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Your Company' => 'kevinho0706@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
+  s.dependency 'QIYU_iOS_SDK', '~> 5.1.0'
 
   s.ios.deployment_target = '8.0'
 end
