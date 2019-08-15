@@ -18,7 +18,6 @@ public class GlideImageLoader implements UnicornImageLoader {
         this.context = context.getApplicationContext();
     }
 
-    @Nullable
     @Override
     public Bitmap loadImageSync(String uri, int width, int height) {
         return null;
