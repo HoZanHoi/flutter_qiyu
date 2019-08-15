@@ -5,8 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.ApplicationInfo;
-import android.nfc.Tag;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.util.Log;
 
 import io.flutter.plugin.common.EventChannel;
@@ -20,11 +19,9 @@ import com.qiyukf.unicorn.api.customization.action.AlbumAction;
 import com.qiyukf.unicorn.api.customization.action.BaseAction;
 import com.qiyukf.unicorn.api.customization.action.CameraAction;
 import com.qiyukf.unicorn.api.customization.action.ImageAction;
-import com.qiyukf.unicorn.api.customization.input.ActionPanelOptions;
 import com.qiyukf.unicorn.api.customization.input.InputPanelOptions;
 import com.qiyukf.unicorn.api.msg.ProductReslectOnclickListener;
 
-import java.io.Console;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

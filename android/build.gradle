@@ -26,13 +26,15 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
         disable 'InvalidPackage'
     }
     dependencies{
-        implementation 'com.qiyukf.unicorn:unicorn:4.11.0'
+        implementation ('com.qiyukf.unicorn:unicorn:4.11.0'){
+            exclude group: 'com.android.support', module:'support-v4'
+        }
         implementation 'com.github.bumptech.glide:glide:3.7.0'
     }
 }
