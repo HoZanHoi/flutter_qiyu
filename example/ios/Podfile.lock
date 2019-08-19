@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_qiyu (0.0.1):
+    - Flutter
+    - QIYU_iOS_SDK (~> 5.1.0)
+  - QIYU_iOS_SDK (5.1.0)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios-release`)
+  - flutter_qiyu (from `.symlinks/plugins/flutter_qiyu/ios`)
+
+SPEC REPOS:
+  trunk:
+    - QIYU_iOS_SDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+  flutter_qiyu:
+    :path: ".symlinks/plugins/flutter_qiyu/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_qiyu: 52b3db47d68fee54aebf1471847cbc53eb46b8dd
+  QIYU_iOS_SDK: 056a3d8b1679b6a1d9c02ef1a5e972893f2f2199
+
+PODFILE CHECKSUM: 7fb83752f59ead6285236625b82473f90b1cb932
+
+COCOAPODS: 1.8.0.beta.1
